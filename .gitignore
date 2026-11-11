@@ -1,0 +1,25 @@
+# Secrets: never commit your NTA API key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# Local data dumps
+data/
+
+# NTA static GTFS timetable (~600 MB, re-download from transportforireland.ie)
+GTFS_Realtime/
+*.zip
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
